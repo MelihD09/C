@@ -1,15 +1,20 @@
 
-printf("**********************Kisi Bilgisi************************\n")
+
+	printf("**********************Kisi Bilgisi************************\n");
 
 printf("Ad: Melih\n");
 printf("Soyad: Demircan\n");
-printf("Yaş: 19\n");
-printf("Meslek: Ogrenci\n");
+printf("Yas: 19\n");
+printf("Meslek: Ogrenci\n\n");
 
+printf("***************************************************************\n\n");
 
 printf("Ad: Mert\n");
 printf("Soyad: Demircan\n");
-printf("Yaş: 24\n");
+printf("Yas: 24\n");
 printf("Meslek: Ziraat Muhendisi\n");
 
-printf("***********************Kisi Bilgisi****************************\n")
+printf("***********************Kisi Bilgisi****************************\n");
+
+
+	
