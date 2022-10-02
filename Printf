@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() {
+	
+	/*
+	printf(""); --->> Tırnak içerisine yazdırmak istediğimiz metini gireriz.
+	printf: Temel ekran çıktısı komutudur. Ekrana herhangi bir değer veyaz yazı yazmak amacıyla kullanılır. Fakat Türkçe karakterleri içinde barındırmaması gerekir, İngilizce dilini baz alarak yazınız.
+	
+	Dünya çapında yazılımın ilk dersi gelenek olarak "Merhaba Dunya" Komutunun yazdırılmasıdır.	
+	printf("Hello World");
+	
+	\n komutu bir alt satıra geçme komutudur. \n komutuna geldiğinde program bir alt satırdan devam eder.
+	*/
+	
+	printf("Merhaba Dunya\n");	
+	printf("Kagan Can Sit\n");
+	printf("Kendine Bilgi, Deneyim Ve Yeni Fikirler Katmak Isteyen Biri\n");
+		
+	return 0;
+}
+
+
+
+
+
