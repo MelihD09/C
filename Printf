@@ -12,12 +12,16 @@ int main() {
 	Dünya çapında yazılımın ilk dersi gelenek olarak "Merhaba Dunya" Komutunun yazdırılmasıdır.	
 	printf("Hello World");
 	
+	Hello World
+	
 	\n komutu bir alt satıra geçme komutudur. \n komutuna geldiğinde program bir alt satırdan devam eder.
 	*/
 	
 	printf("Merhaba Dunya\n");	
-	printf("Kagan Can Sit\n");
-	printf("Kendine Bilgi, Deneyim Ve Yeni Fikirler Katmak Isteyen Biri\n");
+	printf("Melih Demircan\n");
+	
+	Merhaba Dünya 
+	Melih Demircan
 		
 	return 0;
 }
