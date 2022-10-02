@@ -1,0 +1,15 @@
+
+printf("**********************Kisi Bilgisi************************\n")
+
+printf("Ad: Melih\n");
+printf("Soyad: Demircan\n");
+printf("Yaş: 19\n");
+printf("Meslek: Ogrenci\n");
+
+
+printf("Ad: Mert\n");
+printf("Soyad: Demircan\n");
+printf("Yaş: 24\n");
+printf("Meslek: Ziraat Muhendisi\n");
+
+printf("***********************Kisi Bilgisi****************************\n")
