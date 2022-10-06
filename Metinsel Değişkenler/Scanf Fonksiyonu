@@ -1,0 +1,40 @@
+
+
+
+char Ad[20],Soyad[20],Yas[2],Meslek[15],Sehir[15];
+	
+	printf("Adiniz: ");
+	scanf("%s",Ad);
+	
+	printf("Soyadiniz: ");
+	scanf("%s",Soyad);
+	
+	printf("Yasiniz: ");
+	scanf("%s",Yas);
+	
+	printf("Mesleginiz: ");
+	scanf("%s",Meslek);
+	
+	printf("Sehriniz: ");
+	scanf("%s",Sehir);
+	
+	printf("\n\n");
+	printf("***********Kisi***************\n\n");
+	printf("Adi: %s\n",Ad);
+	printf("Soyadi: %s\n",Soyad);
+	printf("Yasi: %s\n",Yas);
+	printf("Meslegi: %s\n",Meslek);
+	printf("Sehri: %s\n",Sehir);
+	
+
+
+
+
+
+
+
+
+
+
+
+
