@@ -14,7 +14,19 @@ printf("Basim Yili: %s",basimyili);
 
 
 
+char Isim[20]="Melih";
+char Soyad[20]="Demircan";     
+char Yas[3]="19";
+char Meslek[20]="Ogrenci";	
+char Memleket[15]="Aydin";
 
+
+printf("************* Kisi Tanitim ****************\n\n\n");
+printf("Isim: %s\n",Isim);
+printf("Soyad: %s\n",Soyad);
+printf("Yas: %s\n",Yas);
+printf("Meslek: %s\n",Meslek);
+printf("Memleket: %s\n",Memleket);
 
 
 
