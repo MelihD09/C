@@ -1,0 +1,49 @@
+
+int sayi1,sayi2,topla,carp,fark,bol;
+	
+	sayi1=135;
+	sayi2=45;
+	topla=sayi1+sayi2;
+	fark=sayi1-sayi2;
+	carp=sayi1*sayi2;
+	bol=sayi1/sayi2;
+	
+	printf("Toplam Sonuc: %d\n",topla);
+	printf("Fark Sonuc: %d¨\n",fark);
+	printf("Carpma Sonuc: %d\n",carp);
+	printf("Bolme Sonuc: %d",bol);
+  
+  
+  
+  -----------------------------------------------------------------------------------------------------------
+  
+  	int kisa,uzun,alan,cevre;
+	
+	kisa=8;
+	uzun=12;
+	cevre=2*(kisa+uzun);
+	alan=kisa*uzun;
+	
+	printf("Cevre: %d\n",cevre);
+	printf("Alan: %d",alan);
+  
+  
+ ---------------------------------------------------------------------------------------------------
+ 
+ 
+ int sinav1,sinav2,sinav3,proje,Ortalama;
+
+sinav1=46;
+sinav2=74;	
+sinav3=60;	
+proje=90;	
+Ortalama=(sinav1+sinav2+sinav3+proje)/4;
+	
+	printf("Ders Ortalamasi: %d",Ortalama);
+
+
+
+
+
+
+
