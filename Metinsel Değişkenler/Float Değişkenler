@@ -1,0 +1,115 @@
+
+
+//Float ondalıklı sayılar için
+
+
+	float sayi1,sayi2,toplam,fark,carp,bolme;
+	
+	sayi1=71.2;
+	sayi2=19.2;
+	
+	toplam=sayi1+sayi2;
+	fark=sayi1-sayi2;
+	carp=sayi1*sayi2;
+	bolme=sayi1/sayi2;
+	
+	printf("%f\n",toplam);
+	printf("%f\n",fark);
+	printf("%f\n",carp);
+	printf("%f",bolme);
+	
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	float sayi1,sayi2,toplam,fark,carpma,bolme;
+
+    printf("Birinci sayiyi giriniz: ");
+    scanf("%f",&sayi1);
+
+    printf("Ikinci sayiyi giriniz: ");
+    scanf("%f",&sayi2);
+
+    toplam=sayi1+sayi2;
+    fark=sayi1-sayi2;
+    carpma=sayi1*sayi2;
+    bolme=sayi1/sayi2;
+
+
+    printf("Toplam: %f\n",toplam);
+    printf("Fark: %f\n",fark);
+    printf("Carpma: %f\n",carpma);
+    printf("Bolme: %f",bolme);
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+	float maas,yenimaas;
+
+printf("Maasinizi giriniz: ");
+scanf("%f",&maas);
+
+yenimaas=maas+maas*18/100;
+
+printf("Yeni maasiniz: %f",yenimaas);
+	
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	//Silindirin alanı = Taban alanı x yükseklik (Taban alanı=pi*r*r)
+	
+float pi,r,h,tabanalani,silindirinalani;
+	
+	printf("**********Silindirin Alan Hesabi: **********\n\n");
+	
+	pi=3.14;
+	
+	printf("Yaricapi Giriniz: ");
+	scanf("%f",&r);
+	
+	printf("Yuksekligi Giriniz: ");
+	scanf("%f",&h);
+	
+	tabanalani=pi*r*r;
+	
+	silindirinalani=tabanalani*h;
+	
+	printf("Silindirin Alani: %f",silindirinalani);
+	
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	//Tyt puanı hesaplama
+	//Türkçe: 3.3
+	//Matematik: 3.3
+	//Sosyal: 3.4
+	//Fen: 3.4
+	//obp: 0.6
+	//taban: 100
+	
+	float turkce,mat,sos,fen,obp,taban,tyt;
+	
+	printf("***************TYT PUAN HESAPLAMA***************\n\n");
+	
+	taban=100;
+	
+	printf("Obp puaninizi giriniz: ");
+	scanf("%f",&obp);
+	
+	printf("Turkce netinizi giriniz: ");
+	scanf("%f",&turkce);
+	
+	printf("Matematik netinizi giriniz: ");
+	scanf("%f",&mat);
+	
+	printf("Sosyal netinizi giriniz: ");
+	scanf("%f",&sos);
+	
+	printf("Fen netinizi giriniz: ");
+	scanf("%f",&fen);
+	
+	tyt=turkce*3.3+mat*3.3+sos*3.4+fen*3.4+obp*0.6+taban;
+	
+	printf("Tyt Puaniniz: %f",tyt);
+
+
+
