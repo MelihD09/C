@@ -50,7 +50,27 @@ int sayi;
 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+	int sinav1,sinav2,sinav3,proje,ort;
+	
+	
+	printf("Birinci sinavinizi giriniz: ");
+	scanf("%d",&sinav1);
+	
+	printf("Ikinci sinavinizi giriniz: ");
+	scanf("%d",&sinav2);
+	
+	printf("Ucuncu sinavinizi giriniz: ");
+	scanf("%d",&sinav3);
+	
+	printf("Proje notunuzu giriniz: ");
+	scanf("%d",&proje);
+	
+	ort=(sinav1+sinav2+sinav3+proje)/4;
+	
+	printf("Ortalamaniz: %d",ort);
+	
 
 
 
