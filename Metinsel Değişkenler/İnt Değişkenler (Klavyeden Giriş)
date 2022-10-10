@@ -73,8 +73,29 @@ int sayi;
 	
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+	int bilet,kola,su,misir,toplam;
+	
+	printf("Su adeti: ");
+	scanf("%d",&su);
+	
+	printf("Kola adeti: ");
+	scanf("%d",&kola);
+	
+	printf("Misir adeti: ");
+	scanf("%d",&misir);
+	
+	printf("Bilet adeti: ");
+	scanf("%d",&bilet);
+	
+	
+	//Bilet=25,Mısır=15,Kola=10,su=3 TL
+	
+	toplam=bilet*25+misir*15+kola*10+su*3;
+	
+	printf("Toplam borcunuz: %d",toplam);
+	printf("TL");
 
 
 
