@@ -1,4 +1,6 @@
-int s1,s2,s3,proje,ortalama;
+ int s1,s2,s3,proje,ortalama;
+	
+	printf("*****	Ogrenci Sinav Ortalama Sistemi	*****\n\n");
 	
 	
 	printf("Birinci sinavinizi giriniz: ");
