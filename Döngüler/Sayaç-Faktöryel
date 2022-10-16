@@ -1,0 +1,42 @@
+ 
+	int sayac=0;
+	int i;
+	
+	for(i=1;i<=10;i++)
+	{
+		sayac=sayac+i;
+	}
+	printf("Sayac: %d",sayac);
+
+
+----------------------------------------------
+
+    int i;
+    int faktor=1;
+	
+	for(i=1;i<=5;i++)
+	{
+	  faktor=faktor*i;
+	}
+	printf("5 sayisinin faktoryeli: %d",faktor);
+  
+  ----------------------------------------------------------------
+  
+  int i,sayi;
+	int faktor=1;
+	
+	printf("Faktoryel hesabi icin bir sayi giriniz: ");
+	scanf("%d",&sayi);
+	
+	for(i=1;i<=sayi;i++)
+	{
+		faktor=faktor*i;
+	}
+	printf("Girdiginiz sayinin faktoryeli: %d",faktor);
+	
+
+
+
+
+
+
