@@ -1,0 +1,35 @@
+
+//Turkce= 3.3,Matematik=3.3,Sosyal=3.4,Fen=3.4,obp=0.6,+100
+	
+	int t,m,s,f,o,u; 
+	
+	printf("**********Universiteye Giris Hakki Ogrenme**********\n\n");
+	
+	printf("Obp'nizi giriniz: ");
+	scanf("%d",&o);
+	
+	printf("Turkce netinizi giriniz: ");
+	scanf("%d",&t);
+	
+	printf("Matematik netinizi giriniz: ");
+	scanf("%d",&m);
+	
+	printf("Sosyal netinizi giriniz: ");
+	scanf("%d",&s);
+	
+	printf("Fen netinizi giriniz: ");
+	scanf("%d",&f);
+	
+	u=100+t*3.3+m*3.3+s*3.4+f*3.4+o*0.6;
+	
+	printf("Puaniniz: %d\n",u);
+	
+	if(u>=426)
+	{
+		printf("Universiteyi giris hakki kazandiniz!!!");
+	}
+	else
+	{
+		printf("Universiteye giris hakki kazanamadiniz");
+	}
+	
