@@ -1,5 +1,4 @@
-
-//Turkce= 3.3,Matematik=3.3,Sosyal=3.4,Fen=3.4,obp=0.6,+100
+	//Turkce= 3.3,Matematik=3.3,Sosyal=3.4,Fen=3.4,obp=0.6,+100
 	
 	int t,m,s,f,o,u; 
 	
@@ -8,8 +7,39 @@
 	printf("Obp'nizi giriniz: ");
 	scanf("%d",&o);
 	
-	printf("Turkce netinizi giriniz: ");
-	scanf("%d",&t);
+    if(o<=0)
+	{
+		printf("0-100 arasi bir sayi giriniz!\n",&t);
+			printf("Obp'nizi giriniz: ");
+	        scanf("%d",&o);
+	}
+	if(o>=40)
+	{
+		printf("0-100 arası bir sayi giriniz!\n",&t);
+		
+		printf("Obp'nizi giriniz: ");
+	    scanf("%d",&o);
+	}
+
+        printf("Turkce netinizi giriniz: ");
+	    scanf("%d",&t);
+	        
+	        
+		if(t<=0)
+	{
+		printf("0-40 arasi bir sayi giriniz!\n",&t);
+		printf("Turkce netinizi giriniz: ");
+	    scanf("%d",&t);
+	}
+	if(t>=40)
+	{
+		printf("0-40 arası bir sayi giriniz!\n",&t);
+		
+		printf("Turkce netinizi giriniz: ");
+	    scanf("%d",&t);
+	}
+	
+	
 	
 	printf("Matematik netinizi giriniz: ");
 	scanf("%d",&m);
