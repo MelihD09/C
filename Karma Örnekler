@@ -1,4 +1,12 @@
-	//Turkce= 3.3,Matematik=3.3,Sosyal=3.4,Fen=3.4,obp=0.6,+100
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	
+		//Turkce= 3.3,Matematik=3.3,Sosyal=3.4,Fen=3.4,obp=0.6,+100
 	
 	int t,m,s,f,o,u; 
 	
@@ -13,19 +21,20 @@
 			printf("Obp'nizi giriniz: ");
 	        scanf("%d",&o);
 	}
-	if(o>=40)
+	if(o>=100)
 	{
-		printf("0-100 arası bir sayi giriniz!\n",&t);
+		printf("0-100 arasi bir sayi giriniz!\n",&t);
 		
 		printf("Obp'nizi giriniz: ");
 	    scanf("%d",&o);
 	}
 
-        printf("Turkce netinizi giriniz: ");
+        printf("\nTurkce netinizi giriniz: ");
 	    scanf("%d",&t);
 	        
 	        
 		if(t<=0)
+		
 	{
 		printf("0-40 arasi bir sayi giriniz!\n",&t);
 		printf("Turkce netinizi giriniz: ");
@@ -33,7 +42,7 @@
 	}
 	if(t>=40)
 	{
-		printf("0-40 arası bir sayi giriniz!\n",&t);
+		printf("0-40 arasi bir sayi giriniz!\n",&t);
 		
 		printf("Turkce netinizi giriniz: ");
 	    scanf("%d",&t);
@@ -41,18 +50,62 @@
 	
 	
 	
-	printf("Matematik netinizi giriniz: ");
+	printf("\nMatematik netinizi giriniz: ");
 	scanf("%d",&m);
 	
-	printf("Sosyal netinizi giriniz: ");
+	
+		if(m<=0)
+	{
+		printf("0-40 arasi bir sayi giriniz!\n",&m);
+		printf("Matematik netinizi giriniz: ");
+	    scanf("%d",&m);
+	}
+	if(m>=40)
+	{
+		printf("0-40 arasi bir sayi giriniz!\n",&m);
+		
+		printf("Matematik netinizi giriniz: ");
+	    scanf("%d",&m);
+	}	
+	
+	printf("\nSosyal netinizi giriniz: ");
 	scanf("%d",&s);
 	
-	printf("Fen netinizi giriniz: ");
+			if(s<=0)
+	{
+		printf("0-20 arasi bir sayi giriniz!\n",&s);
+		printf("Sosyal netinizi giriniz: ");
+	    scanf("%d",&s);
+	}
+	if(s>=20)
+	{
+		printf("0-20 arasi bir sayi giriniz!\n",&s);
+		
+		printf("Sosyal netinizi giriniz: ");
+	    scanf("%d",&s);
+	}
+	
+	printf("\nFen netinizi giriniz: ");
 	scanf("%d",&f);
+	
+	if(f<=0)
+	{
+		printf("0-20 arasi bir sayi giriniz!\n",&f);
+		printf("Fen netinizi giriniz: ");
+	    scanf("%d",&f);
+	}
+	if(f>=20)
+	{
+		printf("0-20 arasi bir sayi giriniz!\n",&f);
+		
+		printf("Fen netinizi giriniz: ");
+	    scanf("%d",&f);
+	}
+	
 	
 	u=100+t*3.3+m*3.3+s*3.4+f*3.4+o*0.6;
 	
-	printf("Puaniniz: %d\n",u);
+	printf("\nPuaniniz: %d\n",u);
 	
 	if(u>=426)
 	{
@@ -63,3 +116,7 @@
 		printf("Universiteye giris hakki kazanamadiniz");
 	}
 	
+	
+	
+	return 0;
+}
