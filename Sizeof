@@ -1,0 +1,30 @@
+
+int a;
+    a=55;
+
+    printf("a degiskeni hafizada %d byte yer tutar\n",sizeof(a));
+    printf("int degiskeni hafizada %d byte yer tutar\n",sizeof(int));
+    printf("char degiskeni hafizada %d byte yer tutar\n",sizeof(char));
+    printf("float degiskeni hafizada %d byte yer tutar\n",sizeof(float));
+    printf("double degiskeni hafizada %d byte yer tutar",sizeof(double));
+    
+-----------------------------------------------------------------------------------------------------------------------------------
+
+//define veya const ile tanımlanan değişkenler sonradan değiştirilemez.
+
+#define PI 3.14
+
+int main()
+{
+const int a=15;
+
+printf("%d \n",a);
+
+printf("%.2f",PI);
+
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
