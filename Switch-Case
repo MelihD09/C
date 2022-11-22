@@ -1,0 +1,50 @@
+
+int day;
+
+printf("Haftanin kacinci gunu giriniz: ");
+scanf("%d",&day);
+
+switch(day)
+{
+    case 1:printf("Pazartesi");
+    break;
+    case 2:printf("Sali");
+    break;
+    case 3:printf("Carsamba");
+    break;
+    case 4:printf("Persembe");
+    break;
+    case 5:printf("Cuma");
+    break;
+
+    default :printf("Gecersiz Gun");
+    break;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+float a,b;
+char op;
+
+printf("Lutfen 2 adet sayi giriniz: \n");
+scanf("%f%f",&a,&b);
+
+printf("Lutfen yapacaginiz islemi secin: \nToplama= +\n Cikarma= -\n Bolme= /\n Carpma= *\n");
+scanf("%c",&op);
+
+switch(op)
+{
+    case '+' : printf("%.2f + %.2f = %.2f ",a,b,a+b);
+    break;
+    case '-' :printf("%.2f - %.2f = %.2f",a,b,a-b);
+    break;
+    case '/' : printf("%.2f + %.2f = %.2f ",a,b,a/b);
+    break;
+    case '*' : printf("%.2f + %.2f = %.2f ",a,b,a*b);
+    break;
+    default:printf("Hatali giris yaptiniz");
+}
+
+
+
+
