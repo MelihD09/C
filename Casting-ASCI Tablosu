@@ -1,0 +1,17 @@
+
+float sayi=(float)11/5;
+printf("%f",sayi);
+
+//Sayının ondalıklı çıkması için yapılır.
+
+
+
+
+
+
+
+
+
+
+
+
