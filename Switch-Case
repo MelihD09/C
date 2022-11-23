@@ -30,7 +30,7 @@ printf("Lutfen 2 adet sayi giriniz: \n");
 scanf("%f%f",&a,&b);
 
 printf("Lutfen yapacaginiz islemi secin: \nToplama= +\n Cikarma= -\n Bolme= /\n Carpma= *\n");
-scanf("%c",&op);
+scanf(" %c",&op);
 
 switch(op)
 {
