@@ -1,0 +1,36 @@
+
+int mat[2][2][3]={{{1,2,3},{4,5,6}},{{7,8,9},{10,11,12}}}
+   
+//3 Boyutlu Matris
+
+-----------------------------------------------------------------------------------------------------------------
+
+int mel[2][3][2];
+    int i,j,k;
+
+    printf("Lutfen 12 adet deger giriniz:\n ");
+
+    for(i=0;i<2;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            for(k=0;k<2;k++)
+            {
+                scanf("%d",&mel[i][j][k]);
+            }
+        }
+    }
+    printf("Girdiginiz degerler\n");
+
+    for(i=0;i<2;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            for(k=0;k<2;k++)
+            {
+                printf("mel[%d][%d][%d] = %d\n",i,j,k,mel[i][j][k]);
+            }
+        }
+    }
+    
+    //Kullanıcıdan 3 Boyutlu matris için değer alıp consola bastırma
