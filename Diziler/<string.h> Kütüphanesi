@@ -1,0 +1,132 @@
+
+char mel[]="Melih";
+
+   printf("Karakter dizisinin boyu: %d",strlen(mel));
+   
+   //strlen ==> Dizinin kaç karakterden oluştuğunu söyler 
+   
+   --------------------------------------------------------------------------------------------------------------------
+   
+   char mel[]="Melih";
+
+   printf("Karakter dizisinin boyu: %d",sizeof(mel));
+   
+   //sizeof == Dizinin kaç karakterden oluştuğunu söyler ama '\0' karakterini de aldığı için +1 fazla gösterir.
+   
+   -------------------------------------------------------------------------------------------------------------------------
+   
+   int sonuc;
+
+   char mel[15]="abcdef";
+   char dem[15]="ABCDEF";
+
+   sonuc=strcmp(mel,dem);
+
+   printf("%d \n",sonuc);
+
+   if(sonuc<0)
+   {
+       printf("mel dizisi dem dizisinden daha kucuktur");
+   }
+   else if (sonuc>0)
+   {
+       printf("mel dizisi dem dizisinden daha buyuktur");
+   }
+   else
+   {
+       printf("Ikiside birbirine esittir");
+   }
+   
+   //strcmp 2 karakter dizisini kıyaslar
+   /*strncmp kullanılırsa belirli bir karaktere kadar kontrol edilir.
+   
+   sonuc=strncmp(mel,dem,4);
+   
+   */
+   
+   -----------------------------------------------------------------------------------------------------------------------------
+   
+   char mel[]="Melih";
+   char dem[100];
+
+   strcpy(dem,mel);
+
+   printf("%s",dem);
+
+   // strcpy ==> bir diziyi diğer dizinin içine "kopyalar".
+  
+  **********************************************
+  
+   char mel[]="Melih";
+   char dem[100]="";
+
+   strncpy(dem,mel,4);
+
+   printf("%s",dem);
+   
+   // strncpy ==> belirli bir sayıda kopyalar * 2. diziye boşlukta olsa karakter atanmak zorunda * 
+   ----------------------------------------------------------------------------------------------------------------------------
+   
+  char bos[100];
+
+    strcat(bos,"Merhaba");
+
+    printf("%s",bos);
+    
+    // strcat ==> Diziye ekleme yapmak için kullanılır.
+    
+    ---------------------------------------------------------------------------------------------------------------------------
+    
+    char name[30];
+
+     printf("Lutfen isminizi giriniz: ");
+
+     //gets(name);
+
+     fgets(name,sizeof(name),stdin);
+
+     printf("%s",name);
+     
+     //Kullanıcıya char girişi yaptırılır.
+     
+     ------------------------------------------------------------------------------------------------------------------------
+     
+     char name[30];
+
+     printf("Lutfen bir text giriniz: ");
+     scanf("%s",&name);
+
+     printf("Girdiginiz ifade: %s\n",name);
+     printf("Girdiginiz ifadenin ters cevrilmis hali: %s",strrev(name));
+     
+     //strrev ==> Girilen metni tersten yazdırır.
+     
+     ----------------------------------------------------------------------------------------------------------
+     
+     char name[30];
+
+     printf("Lutfen buyuk harflerle bir text giriniz: ");
+     scanf("%s",&name);
+
+     printf("Girdiginiz ifade: %s\n",name);
+     printf("Girdiginiz ifadenin kucuk harfli hali: %s",strlwr(name));
+     
+     // strlwr ==> Girilen metindeki büyük harfleri küçük harflere dönüştürür.
+     
+     -----------------------------------------------------------------------------------------------------------
+     
+     char name[30];
+
+     printf("Lutfen kucuk harflerle bir text giriniz: ");
+     scanf("%s",&name);
+
+     printf("Girdiginiz ifade: %s\n",name);
+     printf("Girdiginiz ifadenin buyuk harfli hali: %s",strupr(name));
+     
+     //strupr ==> Girilen metindeki küçük harfleri büüyk harflere dönüştürür.
+     
+     ----------------------------------------------------------------------------------------------------------
+     
+   
+   
+   
