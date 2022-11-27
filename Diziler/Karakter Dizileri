@@ -1,0 +1,28 @@
+
+char mel[]={'d','e','m','i','r','c','a','n','\0'};
+//ya da 
+char dem[20]="melih";
+
+    char mede[20];
+
+    printf("%s \n",dem);
+
+    printf("Lutfen bir karakter dizi giriniz: ");
+    scanf("%s",&mede);
+
+    printf("%s",mede);
+
+//Karakter dizisi alma ve bastırma
+
+--------------------------------------------------------------------------------------------------------
+
+ char mel[]="nelih";
+
+   mel[0]='M';
+
+   printf("%s",mel);
+
+//Tanımlanmış string dizisinde dizi içerisindeki karakteri değiştirme
+
+--------------------------------------------------------------------------------------------------------
+
