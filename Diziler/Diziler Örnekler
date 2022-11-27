@@ -1,0 +1,24 @@
+
+char dizi1[]="Hoscaaa";
+     char dizi2[]="kalllll";
+     char sonuc[100]="";
+
+     strcpy(sonuc,dizi1);
+     strncpy(sonuc+5,dizi2,3);
+
+     printf("%s",sonuc);
+
+// 2 Diziyi birleştirme işlemi.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+char dizi[100][100]={"bir","iki","uc","dort","bes"};
+
+     printf("Dizinin dorduncu elemani: %s \n",dizi[3]);
+     printf("Dizinin dordunucu elamanın ucuncu karakteri: %c",dizi[3][2]);
+     
+ //Dizideki belirli karakter yazdırma.
+ 
+ -----------------------------------------------------------------------------------------------------------------------------
+ 
+ 
