@@ -1,0 +1,104 @@
+
+int k1,k2,h;
+
+printf("Lutfen dokdortgenin kisa kenarini giriniz: ");
+scanf("%d",&k1);
+
+printf("Lutfen dikdortgenin uzun kenarini giriniz: ");
+scanf("%d",&k2);
+
+printf("Lutfen dikdortgenin yusekligini giriniz: ");
+scanf("%d",&h);
+
+printf(" Dikdortgenin Taban Alani:%d \n Yanal Alanlar Toplami:%d \n Toplam alani:%d \n Hacmi:%d \n ",k1*k2,4*(k1*k2),6*(k1*k2),h*k1*k2);
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+int a,b,c;
+int max,min;
+
+
+printf("3 tame deger giriniz: ");
+scanf("%d%d%d",&a,&b,&c);
+
+max=a;
+
+if(b>max)
+{
+    max=b;
+}
+if(c>max)
+{
+    max=c;
+}
+
+printf("Maximum Degerimiz:%d \n",max);
+
+min=a;
+
+if(b<min)
+{
+    min=b;
+}
+if(c<min)
+{
+    min=c;
+}
+
+printf("Minimum Degerimiz:%d ",min);
+
+--------------------------------------------------------------------------------------------------------------------
+int a,b;
+
+printf("2 Tam sayi giriniz: ");
+scanf("%d%d",&a,&b);
+
+
+if(a==b)
+{
+    printf("Girdiginiz degerler birbirine esittir \n");
+}
+else if (a<b)
+{
+    printf("Girdiginiz 2. sayi daha buyuktur \n");
+}
+else if(b<a)
+{
+    printf("Girdiginiz 1. sayi daha buyuktur \n");
+}
+
+
+if(a!=b)
+{
+    printf("Girdiginiz degerler birbirine esit degildir \n");
+}
+
+if(a%b==0 && a!=b)
+{
+    printf("Girdiginiz Ilk deger ikinci degerin katidir ");
+}
+
+if(b%a==0 && a!=b)
+{
+    printf("Girdiginiz Ikinci deger ilk degerin katidir");
+}"
+
+-------------------------------------------------------------------------------------------------------------------
+
+int a;
+
+printf("Lutfen bir deger giriniz:\n ");
+scanf("%d",&a);
+
+while(a!=0)
+{
+    printf("%d \n",a);
+    a=a-1;
+}
+
+---------------------------------------------------------------------------------------------
+
+
+
+
+
