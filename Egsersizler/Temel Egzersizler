@@ -99,6 +99,88 @@ while(a!=0)
 ---------------------------------------------------------------------------------------------
 
 
+//t=18,b=17,s=19
+
+char kod;
+
+float alan,ucret=0;
+
+printf("Alacaginiz hali hangisidir ? (T-B-S) ");
+scanf("%c",&kod);
+
+printf("Lutfen alani giriniz: ");
+scanf("%f",&alan);
+
+if(kod=='T')
+{
+    ucret=alan*18;
+}
+else if(kod=='B')
+{
+    ucret=alan*17;
+}
+else if(kod=='C')
+{
+    ucret=alan*19;
+}
+else
+{
+    printf("Kodunuz dogru degildir!");
+}
+
+    printf("Borcunuz: %.3f ",ucret);
+    
+-----------------------------------------------------------------------------------------------------------------------------
+
+int x;
+
+printf("Bir pozitif tam sayi giriniz: ");
+scanf("%d",&x);
+
+if(x>=0)
+{
+    if(x%13==0 && x%17==0)
+    {
+        printf("Girdiginiz sayi 13 ve 17 ile bolunebilmektedir");
+    }
+    else if(x%13==0)
+    {
+        printf("Girdiginiz sayi 13 ile bolunebilmektedir");
+    }
+    else if(x%17==0)
+    {
+        printf("Girdiginiz sayi 17 ile bolunebilmektedir");
+    }
+    else
+    {
+        printf("Girdiginiz sayi 13 veya 17 ile bulunememektedir");
+    }
+
+}
+else
+{
+    printf("Girdiginiz sayi pozitif tam sayi degildir!");
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+char mel;
+
+printf("Lutfen bir karakter giriniz:\n");
+scanf("%c",&mel);
+
+if((mel>='A') && (mel<='Z'))
+{
+printf("Kucuk harfiniz: %c\n",tolower(mel));
+}
+else
+{
+    printf("Yanlis karakter girdiniz!");
+}
+
+------------------------------------------------------------------------------------------------
+
+
 
 
 
