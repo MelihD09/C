@@ -199,6 +199,74 @@ printf("Sonuc: %.3f",sonuc);
 
 ---------------------------------------------------------------------------------------------------------
 
+float x;
 
+do
+{
 
+printf("Bir sayi giriniz: ");
+scanf("%f",&x);
+if(x<0)
+{
+    printf("Lutfen pozitif bir sayi giriniz:\n");
+}
+if(x<0)continue;
 
+printf("Girdiginiz sayinin karekoku: %f \n",sqrt(x));
+}
+while(x);
+
+-----------------------------------------------------------------------------------------------------
+
+float a,b,isaret;
+
+do
+{
+
+printf("Sirasiyle 2 sayi giriniz: ");
+scanf("%f%f",&a,&b);
+
+isaret=a*b;
+
+if(isaret<0)
+{
+    printf("Girdiginiz sayilerin carpim sonucu negatiftir\n");
+}
+else if(isaret>0)
+{
+    printf("Girdiginiz sayilerin carpim sonucu pozitiftir\n");
+}
+else
+{
+    printf("Girdiginiz sayilarin carpim sonucu 0'dir\n");
+}
+}
+while(isaret);
+
+************
+
+float a,b;
+
+do
+{
+
+printf("Sirasiyle 2 sayi giriniz: ");
+scanf("%f%f",&a,&b);
+
+if((a==0) || (b==0))
+{
+    printf("Girdiginiz sayilarin carpim sonucu 0'dir\n");
+}
+else if((a>0) && (b>0))
+{
+    printf("Girdiginiz sayilerin carpim sonucu pozitiftir\n");
+}
+else if ( (a<0) && (b>0)|| (a>0) && (b<0) )
+{
+    printf("Girdiginiz sayilarin carpim sonucu negatiftir\n");
+}
+
+}
+while(a);
+
+----------------------------------------------------------------------------------------------------------------------------------
