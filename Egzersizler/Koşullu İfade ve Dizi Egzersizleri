@@ -27,3 +27,65 @@ else if(aci1+aci2+aci3!=180)
 
 ------------------------------------------------------------------------------------------------------
 
+float a,b,c;
+
+do
+{
+ printf("Lutfen kac dakika konustugunuzu giriniz: ");
+ scanf("%f",&a);
+
+
+ b=a*0.25;
+ c=b+a*0.08;
+
+ if(a<=3)
+ {
+     printf("%.3f\n",b);
+ }
+else if(a>3)
+{
+    printf("%.3f\n",c);
+}
+}
+while(c);
+
+----------------------------------------------------------------------------------------------
+
+int a,b;
+char op;
+
+printf("Yapacaginiz islemi seciniz: (+,-)");
+scanf("%c",&op);
+
+printf("2 adet sayi giriniz: ");
+scanf("%d%d",&a,&b);
+
+
+if(a==0 || b==0)
+{
+    printf("Islem gecersizdir!");
+}
+else
+{
+printf("1/%d %c 1/%d = ",a,op,b);
+switch(op)
+{
+    case '+' :
+    {
+        printf("%d/%d",a+b,a*b);
+    }
+    break;
+
+    case '-' :
+        {
+            printf("%d/%d",a-b,a*b);
+        }
+        break;
+        default :
+        {
+            printf("Yanlis operator girdiniz!");
+        }
+}
+}
+
+--------------------------------------------------------------------------------------------------------------------
