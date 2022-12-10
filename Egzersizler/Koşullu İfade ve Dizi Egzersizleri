@@ -182,3 +182,60 @@ printf("\nTavsanlar kuslari %d. yilda gecer ",yil);
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+#define Vergi_kitap 4.0
+#define Vergi_temelgida 5.6
+#define Vergi_luks 19.6
+#define kitap 0
+#define temelgida 1
+#define luks 2
+
+int main()
+{
+
+int kod;
+float fiyat;
+
+printf("Lutfen urunun kodunu giriniz: ");
+scanf("%d",&kod);
+
+printf("Lutfen urunun fiyatini giriniz: ");
+scanf("%f",&fiyat);
+
+printf("Urunumuzun satis fiyati: ");
+
+switch(kod)
+{
+    case kitap : printf("Fiyatimiz: %.4f",fiyat+fiyat*Vergi_kitap/100);
+    break;
+    case temelgida : printf("Fiyatimiz: %.4f",fiyat+fiyat*Vergi_temelgida/100);
+    break;
+    case luks : printf("Fiyatimiz: %.4f",fiyat+fiyat*Vergi_luks/100);
+    break;
+    default : printf("Lutfen dogru bir kod giriniz!");
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+char cumle[100];
+int i=0;
+int sayac;
+sayac=0;
+
+printf("Lutfen bir cumle giriniz: ");
+gets(cumle);
+
+//space'in değeri = 32
+
+while(cumle[i])
+    {
+        if(cumle[i]== 32)
+        {
+          sayac++;
+        }
+        i++;
+    }
+ printf("Girdiginiz cumledeki kelime sayisi: %d",sayac+1);
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
