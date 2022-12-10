@@ -1,0 +1,74 @@
+
+char cumle[100];
+int i=0;
+int sayac;
+sayac=0;
+
+printf("Lutfen bir cumle giriniz: ");
+gets(cumle);
+
+//space'in değeri = 32
+
+while(cumle[i])
+    {
+        if(cumle[i]== 32)
+        {
+          sayac++;
+        }
+        i++;
+    }
+ printf("Girdiginiz cumledeki kelime sayisi: %d",sayac+1);
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+char cumle[100];
+int i=0;
+printf("Lutfen bir cumle giriniz\n");
+gets(cumle);
+
+while(cumle[i])
+{
+    i++;
+}
+
+printf("Cumledeki karakter sayisi: %d\n",i);
+
+--------------------------------------------------------------------------------------------------------
+
+char cumle[100];
+int i;
+printf("Lutfen bir cumle giriniz\n");
+gets(cumle);
+
+for(i=0;cumle[i];i++)
+{
+    printf("%c\n",cumle[i]);
+}
+
+--------------------------------------------------------------------------------------------------------
+
+char kelime[100];
+int i=0;
+int j=0;
+printf("Lutfen bir cumle giriniz\n");
+gets(kelime);
+
+while(i<strlen(kelime))
+{
+    j=0;
+    while(j<=i)
+    {
+        printf("%c",kelime[j]);
+        j++;
+    }
+    printf("\n");
+    i++;
+}
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
