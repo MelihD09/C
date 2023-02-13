@@ -108,4 +108,43 @@ int main()
   
   ---------------------------------------------------------------------------------------------------------------------------
   
-  
+void kare(int *n)
+{
+    int sonuc;
+    sonuc=*n**n;
+}
+
+int main()
+{
+
+int x,karesi;
+
+printf("Karenin bir kenari: ");
+scanf("%d",&x);
+
+karesi=kare(&x);
+
+printf("Karenin alani: %d ",karesi);
+
+
+
+    return 0;
+}
+
+(Adres ile fonksiyon gönderme)
+---------------------------------------------------------------------------------------------------------------------------------
+
+  int main()
+{
+
+printf("File : %s\n",__FILE__);
+printf("Date : %s\n",__DATE__);
+printf("Time : %s\n",__TIME__);
+printf("Line : %d\n",__LINE__);
+printf("STDC : %d\n",__STDC__);
+
+    return 0;
+}
+
+(Makrolar)
+
